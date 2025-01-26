@@ -2,16 +2,17 @@ Estrutura do Projeto
 Aqui está a estrutura geral do projeto:
 
 Entidades: (Cliente, Agendamento, Serviço).
-Repositórios
-Serviços
-Controladores
-DTOs
+- Repositórios
+- Serviços
+- Controladores
+- DTOs
+- Configuracoes
 
 Dependências:
-Spring Web
-Spring Data JPA
-PostgreSQL Driver
-Spring Boot DevTools 
+- Spring Web
+- Spring Data JPA
+- PostgreSQL Driver
+- Spring Boot DevTools 
 
 Funcionalidades existentes
 - cadastro de cliente
@@ -22,6 +23,3 @@ Funcionalidades existentes
 - Validação de dados (com @Valid e validações customizadas).
 - Paginação e ordenação (para listar clientes, agendamentos, de forma paginada).
 
-Passo 8: Expansões Possíveis
-A partir daqui, você pode expandir a API para incluir funcionalidades como:
-Autenticação e Autorização (usando JWT, por exemplo).
